@@ -54,3 +54,7 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+
+## 🌐 Live Demo
+
+[Try SmartOrganizer Online](https://smartorganizer-eqvsgy3xox4nsxadazrln8.streamlit.app)
