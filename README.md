@@ -1,28 +1,56 @@
-# SmartOrganizer
+# 📌 SmartOrganizer
 
-**Boost your productivity and organize tasks efficiently.**
+**SmartOrganizer** is a simple **task management app** built with **Python + Streamlit**.  
+It helps you **add, view, complete, and delete tasks** in an easy-to-use interface.
 
-## Overview
-SmartOrganizer helps you manage tasks, deadlines, and reminders all in one place.
+---
 
-## Features
-- Task creation & management
-- Priority labeling
-- Calendar integration
-- Notifications & reminders
+## 🛠️ Tech Stack
 
-## Tech Stack
-- Python
-- Tkinter / Streamlit
-- SQLite
+- **Python** – Core programming language  
+- **Streamlit** – Web app framework  
+- **SQLite** – Database for persistence  
+- **Git & GitHub** – Version control  
 
-## Screenshots
-![Placeholder](assets/screenshot.png)
+---
 
-## Usage
-1. Clone the repo  
-2. Install dependencies: `pip install -r requirements.txt`  
-3. Run: `python src/app.py`
+## 🚀 Features
 
-## License
-MIT
+- ➕ **Add tasks** with description, priority & deadline  
+- 📋 **View all tasks** in one place  
+- ✅ **Mark tasks as complete**  
+- 🗑️ **Delete tasks** you no longer need  
+- 🗄️ **Persistent storage** using SQLite  
+
+---
+
+## 📸 Screenshots
+
+### ➕ Add Task
+![Add Task](assets/add_task.png)
+
+### 🗑️ Delete Task
+![Delete Task](assets/delete_task.png)
+
+### ✅ Mark Complete
+![Mark Complete](assets/mark_complete.png)
+
+### 📋 View Tasks
+![View Tasks](assets/view_tasks.png)
+
+---
+
+## ▶️ Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/urstrulyshakil/SmartOrganizer.git
+
+# Navigate to the project folder
+cd SmartOrganizer
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
